@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "node ./server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node ./server/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "contentful": "^5.0.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.4",
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
