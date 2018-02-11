@@ -1,4 +1,5 @@
-import SideBySide from '../components/SideBySide';
+import SideBySide from '../app/components/SideBySide';
+import TripleGrid from '../app/components/TripleGrid';
 
 export default () =>
 
@@ -6,5 +7,6 @@ export default () =>
 
   <p>Huh</p>
   <SideBySide />
+  <TripleGrid />
   <SideBySide right />
 </div>

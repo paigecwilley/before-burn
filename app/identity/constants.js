@@ -25,6 +25,9 @@ export const DESKTOP_HD = '@media (min-width: 1440px)';
 * Typography
 */
 
+export const FONT_FAMILY_HEADINGS = "";
+export const FONT_FAMILY_PARA = "";
+
 export const H1_DESKTOP_HD_FONT_SIZE = 50;
 export const H1_DESKTOP_FONT_SIZE = 50;
 export const H1_MOBILE_FONT_SIZE = Math.round( H1_DESKTOP_FONT_SIZE - (H1_DESKTOP_FONT_SIZE * .3));

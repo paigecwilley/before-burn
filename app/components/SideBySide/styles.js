@@ -14,6 +14,8 @@ export const Wrapper = glamorous.section({
 
 
 export const ImagesContainer = glamorous.div({
+  width: '100%',
+  maxWidth: '500px',
 
   '& div:first-of-type': {
     float: 'left',
@@ -28,11 +30,10 @@ export const ImagesContainer = glamorous.div({
 })
 
 export const ImageTriangle = glamorous.div({
-  backgroundImage: 'url(https://source.unsplash.com/daily)',
-  width: '250px',
+  backgroundImage: 'url(https://source.unsplash.com/WeYamle9fDM/800x800)',
+  width: '40%',
   height: '250px',
   backgroundSize: 'cover',
-  backgroundPosition: '-100px 0',
   backgroundRepeat: 'no-repeat',
   shapeMargin: '2em',
 })

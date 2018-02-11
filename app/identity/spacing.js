@@ -3,6 +3,7 @@ import { fromJS } from 'immutable';
 import { remCalc } from '../lib/styleMethods';
 import * as c from './constants';
 import { capitalize } from '../lib/string';
+import { round } from '../lib/numbers';
 
 const spacingScale = {
   SM_MOBILE: remCalc(c.SMALL_MOBILE),
