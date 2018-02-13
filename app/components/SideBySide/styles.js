@@ -1,8 +1,11 @@
 import glamorous from 'glamorous';
 
 import * as c from '../../identity/constants';
+import { spacing } from '../../identity/spacing';
 
-export const Wrapper = glamorous.section({
+export const Wrapper = glamorous.section(
+  spacing({ margin: 'bottom-xl' }),
+  {
   display: 'flex',
   flexDirection: 'row',
 
@@ -15,7 +18,7 @@ export const Wrapper = glamorous.section({
 
 export const ImagesContainer = glamorous.div({
   width: '100%',
-  maxWidth: '500px',
+  maxWidth: '630px',
 
   '& div:first-of-type': {
     float: 'left',
@@ -32,7 +35,7 @@ export const ImagesContainer = glamorous.div({
 export const ImageTriangle = glamorous.div({
   backgroundImage: 'url(https://source.unsplash.com/WeYamle9fDM/800x800)',
   width: '40%',
-  height: '250px',
+  height: '360px',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   shapeMargin: '2em',

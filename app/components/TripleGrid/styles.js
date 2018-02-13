@@ -3,7 +3,7 @@ import glamorous from 'glamorous';
 import { spacing } from '../../identity/spacing';
 
 export const TripleGridContainer = glamorous.section(
-  spacing({ margin: 'vertical-md'}),
+  spacing({ margin: 'bottom-xl'}),
   {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
