@@ -5,6 +5,8 @@ import * as c from '../constants';
 export default glamorous.h1(
   {
     fontSize: c.H3_MOBILE_FONT_SIZE,
+    fontFamily: c.FONT_FAMILY_HEADINGS,
+
 
     [c.DESKTOP]: {
       fontSize: c.H3_DESKTOP_FONT_SIZE,

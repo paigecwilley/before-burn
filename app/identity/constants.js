@@ -25,7 +25,7 @@ export const DESKTOP_HD = '@media (min-width: 1440px)';
 * Typography
 */
 
-export const FONT_FAMILY_HEADINGS = "";
+export const FONT_FAMILY_HEADINGS = '"Questrial", Helvetica';
 export const FONT_FAMILY_PARA = "";
 
 export const H1_DESKTOP_HD_FONT_SIZE = 50;
