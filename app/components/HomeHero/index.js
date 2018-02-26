@@ -2,11 +2,15 @@ import React from 'react';
 
 import Navigation from '../Nav';
 
+import {
+  HomeWrapper,
+} from './styles';
+
 const HomeHero = () => (
-  <div style={{ height: '80vh', backgroundColor: 'lightgrey' }}>
+  <HomeWrapper>
 
     <div><Navigation /></div>
-  </div>
+  </HomeWrapper>
 );
 
 export default HomeHero;

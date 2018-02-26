@@ -1,9 +1,11 @@
 import React from 'react';
 
 import {
+  Header,
   Nav,
   UL,
   LI,
+  A,
 } from './styles';
 
 const LINKS = [
@@ -13,13 +15,15 @@ const LINKS = [
 ];
 
 const Navigation = () => (
-  <Nav>
-    <UL>
-    { LINKS.map(l => (
-      <LI>{ l.title }</LI>
-    ))}
-    </UL>
-  </Nav>
+  <Header>
+    <Nav>
+      <UL>
+      { LINKS.map(l => (
+        <A><LI>{ l.title }</LI></A>
+      ))}
+      </UL>
+    </Nav>
+  </Header>
 );
 
 

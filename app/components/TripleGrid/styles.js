@@ -8,11 +8,6 @@ export const TripleGridContainer = glamorous.section(
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
   gridColumnGap: '10px',
-  // gridAutoRows: '100px',
-  // gridTemplateAreas:
-  // '"a a a b b b ----
-  //   a a a b b b c c c
-  //   ----- b b b c c c "',
 });
 
 export const TripleGridItem = glamorous.img({

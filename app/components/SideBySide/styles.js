@@ -42,12 +42,12 @@ export const ImagesContainer = glamorous.div({
     left: `-${remCalc(54)}`,
     width: '100%',
     height: '100%',
-    border: '2px solid green',
+    border: '2px solid lightgoldenrodyellow',
   },
 })
 
 export const ImageTriangle = glamorous.div({
-  backgroundImage: 'url(https://source.unsplash.com/WeYamle9fDM/800x800)',
+  backgroundImage: 'url(https://source.unsplash.com/mKHzuoIweyc/800x800)',
   width: '360px',
   height: '360px',
   backgroundSize: 'cover',
