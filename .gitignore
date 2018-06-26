@@ -1,0 +1,10 @@
+.env
+node_modules
+.DS_Store
+dist
+npm-debug.log
+.next
+.coverage
+yarn-error.log
+yarn.lock
+coverage
